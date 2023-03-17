@@ -1,0 +1,96 @@
+.header {
+    padding-top: 50px;
+    height: 800px;
+    background-color: #265847;
+    background-image: url('./../img/header/Rectangle\ 1.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    color: white;
+}
+
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url('./../img/header/Rectangle\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+
+.header-nav-button{
+    display: none;
+}
+
+.header-nav {
+    font-size: 22px;
+    color: white;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1170px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.header-content p {
+    font-size: 24px;
+}
+
+.header-scroll {
+    position: absolute;
+    display: inline-block;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 34px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-scroll::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 24px;
+    width: 24px;
+    display: block;
+    background-image: url(./../img/header/arrow-down.svg);
+}
